@@ -144,7 +144,7 @@ jobs:
               "task_key": "ingestcir",
               "description": "Ejecuta notebook ntbk_2 con parámetros",
               "notebook_task": {
-                "notebook_path": "/practicaproyecto/scripts/Ingest circuits data",
+                "notebook_path": "/practicaproyecto/scripts/Ingest_circuits_data",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "inputPath": "/data/input",
@@ -165,7 +165,7 @@ jobs:
               "task_key": "ingestrac",
               "description": "Ejecuta notebook ntbk_1 con parámetros",
               "notebook_task": {
-                "notebook_path": "/practicaproyecto/scripts/Ingest racing data",
+                "notebook_path": "/practicaproyecto/scripts/Ingest_racing_data",
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "storageLocation": "storage"
