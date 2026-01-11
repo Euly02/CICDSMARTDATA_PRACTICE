@@ -195,7 +195,9 @@ jobs:
               "max_retries": 2
               "depends_on": [
                 {
-                  "task_key": "ingestrac",
+                  "task_key": "ingestrac"
+                },
+                {
                   "task_key": "ingestcir"
                 }
               ]
